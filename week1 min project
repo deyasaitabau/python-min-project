@@ -1,0 +1,7 @@
+salary = int(input("enter your salary"))
+years = int(input("enter years of service"))
+if years> 5:
+  print("your are awarded 5% bonus")
+else:
+  print("your are not allow 5% bonus")
+

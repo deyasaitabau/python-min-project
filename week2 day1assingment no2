@@ -1,0 +1,7 @@
+quantity = int(input("enter unit purchase"))
+price = 100
+cost = quantity*price
+if cost > 1000:
+  print("you are awarded 10% discount")
+else:
+  print("you are not awarded 10% discount")
